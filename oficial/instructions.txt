@@ -1,0 +1,29 @@
+Badge Instructions and Troubleshooting
+Basic Usage:
+The lanyard goes in the hole next to the USB-A connector
+The in-person lanyard is a USB-A to USB-C cable. Use it to connect badges to each other or to your computer.
+To put new firmware on your badge, hold the bottom-right button when turning it on. Connect it to your computer and it will show up as a flash drive. Copy the new uf2 firmware file to it. The badge will reboot on its own and it’s ready to go! NOTE: This will NOT overwrite your challenge status
+The badge has a USB serial console. Use a terminal program to connect to it and interact with the badge. There are options for changing the keymap and LED colors, as well as some badge challenge info.
+
+The Badge Saga
+
+This year the making of the 2021 Defcon badge was quite a bumpy road, with the chip shortage, keycap printing, and late parts. One of our biggest problems were the side connectors on the badge. When we purchased them they told us we would get the connectors by the middle of June, which would have given us plenty of time to assemble and do more quality control. However they did not arrive until the end of July. 6 weeks late. Due to these bumps your badge may not be perfect and we apologize for that. Here are a few ways you can fix some of the problems that may arise.
+
+Troubleshooting
+One or more of my buttons doesn’t work.
+Look at the back of the badge. Do you see all the key switch pins poking through the sockets? If not, remove that switch and straighten out the pin and press it back into the socket. If you don’t know how to remove a switch, ask around and you will find someone that can help.
+My badge wont turn on with either USB, battery, or both
+USB - check all the solder joints of the connector. Is there a part unsoldered?
+Battery - Try replacing the battery.
+Check if the switch is soldered properly. >/li?
+If the copper circuit board pads have been ripped off it's “game over man, Game Over!” for that part.
+The Key switch is not seating right.
+Check if the orientation of the switch is correct. (The pins should go into the socket on the back board.)
+There may be a spacer that is the wrong size. HHV has a handful of extras.
+My side connectors are broken.
+Check if all connectors are soldered correctly.
+If it is missing altogether, the HHV may have some extra parts.
+Broken Key Cap
+There are a few extra keycaps available at the Information booth (While supplies last)
+Touch Slider Doesn’t Work
+The spring contacts between the boards may be broken or not making contact. Try pressing the boards together until they make contact.
